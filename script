@@ -1,0 +1,20 @@
+document.addEventListener('DOMContentLoaded', (event) => {
+  
+    const loginForm = document.getElementById('loginForm');
+    if(loginForm) {
+        loginForm.onsubmit = function(e) {
+            e.preventDefault();
+            alert("ログイン試行");
+           
+    }
+
+    // 登録フォームのサブミットイベント
+    const registerForm = document.getElementById('registerForm');
+    if(registerForm) {
+        registerForm.onsubmit = function(e) {
+            e.preventDefault();
+            alert("登録されました！");
+           
+        };
+    }
+});
