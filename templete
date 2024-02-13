@@ -8,11 +8,13 @@
 <body>
     <h2>ログインフォーム</h2>
     <form id="loginForm">
+         <form id="loginForm">
         <label for="username">ユーザー名:</label><br>
         <input type="text" id="username" name="username" required><br>
         <label for="password">パスワード:</label><br>
         <input type="password" id="password" name="password" required><br>
-      
+        <input type="submit" value="ログイン">
+    </form>
       
         <form id="RegistrationForm">
           <h2>登録</h2>
