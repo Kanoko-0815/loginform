@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ログインフォーム</title>
+</head>
+<body>
+    <h2>ログインフォーム</h2>
+    <form id="loginForm">
+        <label for="username">ユーザー名:</label><br>
+        <input type="text" id="username" name="username" required><br>
+        <label for="password">パスワード:</label><br>
+        <input type="password" id="password" name="password" required><br>
+      
+      
+        <form id="RegistrationForm">
+          <h2>登録</h2>
+        <label for="username">メールアドレス:</label><br>
+        <input type="email" id="mail" name="mailRegistration" required><br>
+        <label for="password">パスワード:</label><br>
+        <input type="password" id="password" name="password" required><br>
+        <input type="submit" value="登録">
+    </form>
+
+    <!-- 外部JavaScriptファイルの参照 -->
+    <script src="form.js"></script>
+</body>
+</html>
